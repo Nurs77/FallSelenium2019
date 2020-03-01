@@ -15,12 +15,16 @@ public class basicNavigation2 {
         }else{
             System.out.println("try again");
         }
+        Thread.sleep(3000);
       driver.navigate().back();
         verifyEquals(driver.getTitle(),"Google");
         Thread.sleep(3000);
         driver.navigate().forward();
         System.out.println("Title: "+ driver.getTitle());
-
+        Thread.sleep(3000);
+        System.out.println("URL: "+ driver.getCurrentUrl());
+        driver.navigate().refresh();
+        Thread.sleep(3000);
         driver.close();
 
 
