@@ -4,12 +4,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BasicNavigation3 {
-    public static void main(String[] args) {
+public class QuitVsClose {
+    public static void main(String[] args) throws Exception{
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://google.com");
-        
+        driver.get("http://practice.cybertekschool.com/open_new_tab");
+        Thread.sleep(4000);
+        driver.quit(); // will quit everything
+        driver.close(); // will close the previous Tab only
     }
 }
