@@ -10,6 +10,6 @@ public class BasicNavigation3 {
         WebDriver driver = new ChromeDriver();
 
         driver.get("http://google.com");
-
+        
     }
 }
