@@ -1,0 +1,23 @@
+.isEnabled() - returns true, if button can be clicked
+isSelected() -- returns true, if button already clicked
+isDisplayed() -- returns true, if element is visible. Applies to any kind of webElement, not only radio buttons.
+
+Note: if element doesn'' exist at all, you will get - NoSuchElementException.
+This method will not work if element doesn't present in the HTML code. To verify if element is not in HTLM code at all,
+use findElement().size() ==0;
+
+driver.findElement()
+
+<input type = "radio" id = "red" name = "color">
+
+radioButton.getAttribute("id")   -- red
+
+radioButton.getAttribute("type") -- radio
+
+radioButton.getAttribute("id")   -- color
+getText() -- nothing
+
+Priority:
+1. element must be present
+2. element must be visible
+

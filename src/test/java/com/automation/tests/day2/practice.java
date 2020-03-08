@@ -20,5 +20,7 @@ public class practice {
         driver.navigate().forward();
         driver.navigate().refresh();
         driver.close();
+
+        System.out.println();
     }
 }
