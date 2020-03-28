@@ -1,0 +1,22 @@
+March 14
+Agenda: TESTNG
+
+levels of testing:
+
+    unit- testing of smallest functional piece of the application. For example : method of class
+    unit testing is done by developers
+
+    integration
+
+    system
+
+    UAT
+
+    In my project, developers were following this flow:
+
+developers write a code --> unit tests to test their code --> code review
+--> new build can be deployed to the test env --> and here we do functional testing
+
+Who writes unit tests? For application code - developres.
+
+Can I write some unit tests for my automation framework? yes

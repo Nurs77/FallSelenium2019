@@ -1,0 +1,13 @@
+JavaScript navigation(action) tools
+
+document.URL --- displays the website URL
+document.title ----- displays the title of the page
+document.getElementBYID('element id').value='send these characters'
+document.getElementById('element id').click(); clicks
+document.getElementById('element id').innerHTML ---- gets the text
+window.scrollBy(0,500) ----- scroll up or down
+document.getElementById('element id').scrollIntoView(); -- Scroll an element into view
+
+
+
+

@@ -22,10 +22,12 @@ public class TestRadioButton {
             System.out.println("Failed to click on Black button");
         }
 
+        BrowserUtils.wait(2);
+
         if(black.isSelected()){
             System.out.println("TEST PASSED");
         }else {
-            System.out.println("TEST FAILLED ENEN SGEIN");
+            System.out.println("TEST FAILLED");
         }
         BrowserUtils.wait(2);
         driver.quit();

@@ -1,0 +1,121 @@
+Sprint cycle is : 2 weeks
+8 develoeprs 5 testers 1 po. 1 SM
+Grooming meeting :  Po + team Estimate points
+                    Fibonacci
+                    1 point = 8 hours
+Sprint planning meeting : take user stories from backlog to sprint backlog
+Tell me the approch to test :
+  1.
+Retro example :
+   jira
+   how to communicate with client more / improve
+--------------
+velocity :
+team capacity : (9 develoerps + 3 testers ) * 8 = 96
+1. Read + understad the user story
+    questions? --> ask BA
+2. Think about Scenarios : possitive vs nagetive
+
+      scenario review
+3. Test scase
+4. Test script(code)
+5. Envitronment
+6. Excecute
+7. may find bug
+            1. report - assign to develoepr - fixed -  re-test - either close or re open
+How many test cases do you have in your smoke suite?
+
+How often do you run your somke test?
+   every day + result is in email + check it before daily stand-up
+How many test cases do you have in your regresstion suite?
+   1200 --> 2 hours
+how often do you run your regresstion?
+     every 3 moths
+how many enviroments?
+test env
+staging env --> regresstion
+                UAT --> 1. Alpha.   2. Beta Testing
+2 hr ==>
+================
+Environemtns :  There are t least 4 environemtns
+
+ 1. Dev env : Devloeprs
+              Unit Testing
+              Integration testing
+    @Test
+    public void test1(){
+    }
+     @Test
+    public void test1(){
+
+    }
+2. test/qa  env : testers (manaul + Automation )
+                  manual testing
+                  Funtional testing
+                  Smoke test
+                  Front-end/ UI==> java + Selenium + TestNG
+                  Back-end == DataBase + API
+       qa1.vytrack.com
+       qa2.vytrack.com
+3. Staging / pre-production env : Regresstion testing
+                                  UAT
+4. Production env : End-user (Vytack employyes + truck driver )
+     www.vytrack.com
+=============
+Smoke Test:
+        Main Funtionalities are checked
+        6~7 User stories
+        60~70 Test cases --> automated / @smoke
+        morning 5 am
+        takes 15 ~ 30 minutes
+        jenkins --> application --> done by DevOPS team
+        All the team mebers will resicve emails
+----------------------
+Regresstion : make sure that new funtionality does not break the old one
+           4 develoeprs 2 testers == each sprint we can automate 25 test cases
+                                     10 test cases are done manually
+ ex:       Sprint 21 : 25*21 = 525 test cases automated
+                       10*21 = 210 TC manually
+                    total test cases : 525 + 210 = 735 TC are in my regresstion
+
+            PO wantes to release a new module : Estimated release date for 3 months
+              03/26 -- 06/26 --> release due date
+           Sprint 22 : 10 user stories == 30 test cases
+           Sprint 23 :
+           Sprint 24 :
+           Sprint 25 :
+           Sprint 26 :
+           Sprint 27 :
+                  30* 6 = 180 TC
+                  I run regresstion beofore 1 week from release date:
+                 From  06/19 --> run regresstion
+                 735 TC + 180 TC ==> 915 TC : 700 Automated + 200 TC manually
+
+
+
+There are more then 100 different types of testing
+------------------------------
+Waht is your approach to test a user story?
+ 1. Read + understand
+ 2. Analysiz if you do manually testing or automation or both
+ 3. Think some scenarios :
+        Positive + negative
+ 4. test cases : Jira -Xray
+ 5. enviroment Set-up
+ 6. test execute :
+        manual : Create test execution tikcet
+              find a bug?
+               open a bug ticket -> decide severity level(how much does it impect to the application's other funtionalities? )
+               Assign to develoepr
+               Developer --> Accepted
+               Valid bug ?
+                Yes :  priority (when to fix )
+                       Fix
+                       assign back to tester
+                tester --> re-test   --> close bug
+                                     --> re-open
+               Developer reject
+                 Valid bug ?  no ?  or. duplicated
+
+        automation : test script (code)
+7. Test closure --> Team lead + PO  --> generate reports

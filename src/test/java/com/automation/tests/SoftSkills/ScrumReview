@@ -1,0 +1,150 @@
+Scrum Review
+
+VyTrack Project
+Bookit --> Test cases on Excell
+
+how Facebook built?
+
+how we build a software?
+
+            A software --> coding games for children (3-6 years)
+
+            got to IT company -> PO
+            PO, BA,
+        SDLC:
+            1.PO gather requirement from Costumer
+                Documents
+                    0. SRS
+                    1. Functional Requirements
+                    2. Non-Functional Requiremnts
+                    3. market requirements
+                    4  business requirements
+PO, BA and manager, Costumer all together test those requirement documents
+
+
+            2. Design
+                Analyze risk
+                Write design documents which includes plan:
+                what language should we use to develop? and test?
+                c++ , java
+
+                what testing tool should we use?
+
+                we use?
+                    Selenium WebDriver
+
+
+                how many people should work?
+                    3 developers
+                    2 testers
+
+            3.Coding
+
+            4. Testing
+
+            5. Deploy/Release
+            V 1.0 --> v1.2 V
+            4.0
+                end-users ==> kids
+
+            6.Maintenance
+                hidden bug?
+                new Requirements?
+                feedback
+
+
+
+
+
+
+ ================================================
+
+ John, PO -- 7 projects
+                1 project
+                    3 agile team
+                    1 devops team
+                    1 UAT team
+
+                2 project
+                    2 agile team
+                    1 devops team
+                    1 UAT team
+                    1 performance team
+
+
+PO --- hire one or more BA(Business Analysis)
+
+BA --- you might have or not have a BA
+
+        Even you have a BA in your team
+
+
+==================================================
+PO - PRODUCT OWNER
+PM --- product manager
+p - project
+
+                                            PO
+                          PM                PM              PM
+                p    p      p         p         p           p         p
+              2AT   3at     1at      2at        4at         3at       2at
+
+
+    USER should be able to save the game.
+        AC1: verify that user save the game by clicking save button.
+
+situation 1:
+    what if his/her device off suddenly?
+    still should be able to save?
+
+situation 2:
+    what if the user could not read save keyword?
+
+situation 3:
+    what if the user'' mom take the game and shut down, any autosave function?
+
+situations on the above == scenarious
+
+peer review meeting: All the testers, developers discusses about scenarios
+
+-----------------
+Capital one --> Bank
+        Costumers are directly communicating with developers and
+        testes & getting feedback from each other
+
+---------
+FanniMea --> BA writes test cases
+
+
+
+===================
+in Agile - Scrum :
+
+        1. PO gathers requirements
+
+        2. PO writes documents
+
+        3. PO writes User stories
+           each User story has Acceptance Criterias
+
+
+==========================================
+1.Login
+2.logo on the home page
+3.a button about to start the game
+4.two games pictures
+5.logout
+6.register
+7.profile pictures
+
+Which functionality should be done first?
+
+6.register should be first functionality to work on before anything else
+        1.login
+        5.logout
+        2.logo on the home page
+        7.profile pictures
+        4.two games pictures
+        3.a button about to start the game
+
+
